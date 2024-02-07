@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ul {
+            font-size: 20px;
+            color: #00bbf9;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Stay Connected:</li>
+        <li><a class="active" href="https://www.tiktok.com" target="_blank"><img src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Tiktok.png" alt="TikTok" style="height: 30px;"></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1200px-Instagram-Icon.png" alt="Instagram" style="height: 30px;"></a></li>
+        <li><a href="https://www.facebook.com" target="_blank"><img src="https://static-00.iconduck.com/assets.00/facebook-color-icon-1024x1024-5fognu35.png" alt="Instagram" style="height: 30px;"></a></li>
+     </ul>
+    <div class="header">
+        <img class="logo" src="logo.png" height="500px">
+    </div>
+    <div class="navbar">
+        <button class="nav-button"><a class="active" href="index.html">Home</a></button>
+        <button class="nav-button"><a href="find.html">Find Us</a></button>
+        <button class="nav-button"><a href="cater.html">Catering</a></button>
+    </div>
+    <h1 class="cater">Catering</h1>
+    <h2 class="cater-sub">Options Available</h2>
+    <div class="cateringtrucks">
+        <div class="options">
+            <img src="https://i.pinimg.com/736x/79/33/c8/7933c82e9d0e543e08dcf93b45a46178.jpg" alt="">
+        </div>
+        <div class="options">
+            <img src="https://i.ebayimg.com/images/g/fM8AAOSwSz1e4SAj/s-l1600.jpg" alt="">
+        </div>
+        <div class="options">
+            <img src="https://townsquare.media/site/393/files/2022/07/attachment-Food-Truck-Window-side-view.jpg?w=980&q=75" alt="">
+        </div>
+    </div>
+    <div class="request">
+        <form class="catering-form" action="all-set.html">
+            <fieldset>
+                <h1 class="form-head">Request a Quote</h1>
+                <h3 class="form-head">One of our agents will reach out to you.</h3>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="fullname" placeholder="Name" required>
+                <label for="edate">Event Date</label>
+                <input type="date" id="edate" name="eventdate" placeholder="Event Date">
+                <label for="type">Event Type: </label>
+                <select name="type" id=""> 
+                    <option value="event-type">Corporate</option>
+                    <option value="event-type">Wedding</option>
+                    <option value="event-type">Birthday</option>
+                    <option value="event-type">Other</option>
+                </select>
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phonenumber" placeholder="Phone" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email" required>
+                <input class="request" type="submit" value="Request a Quote">
+            </fieldset>
+        </form>
+    </div>
+    <footer class="foot-component">
+        <div class="foot-container">
+            <div class="logo2">
+                <img src="logo.png" alt="" height="200px">
+            </div>
+            <div class="footer-list">
+                <li>About</li><br>
+                <li>Join the Team</li><br>
+                <li>Events</li><br>
+                <li>Contact Us</li><br>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
